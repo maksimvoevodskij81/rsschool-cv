@@ -1,0 +1,249 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background: #f5f7fa;
+    padding: 20px;
+    display: flex;
+    font-family: Montserrat;
+}
+.mainaboutme {
+    background: #ffffff;
+    padding-top: 110px;
+    padding-bottom: 110px;
+    padding-left: 90px;
+    padding-right: 90px;
+}
+.specific {
+    /* Style for "Front-End" */
+    width: 160px;
+    height: 14px;
+    color: #000000;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+    /* Text style for "Front-End" */
+    letter-spacing: 0.42px;
+    margin-left: 40px;
+}
+.fullname {
+    color: #000000;
+    font-size: 45px;
+    font-weight: 700;
+    padding-top: 25px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.mydiscription {
+    color: #595959;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.42px;
+    margin-top: 24px;
+    margin-left: 40px;
+    margin-right: 60px;
+}
+.projecttitle {
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 24px;
+    padding-top: 40px;
+}
+.number {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+    margin-left: 18px;
+    letter-spacing: 0.42px;
+}
+.linkproject {
+    color: #595959;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    /* Text style for "https://lo" */
+    letter-spacing: 0.42px;
+    padding-top: 15px;
+    padding-right: 40px;
+}
+.number a :hover {
+    color: #e3630e;
+}
+.skills {
+    color: #595959;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #000000;
+    font-family: "Montserrat - Bold";
+    font-weight: 700;
+    letter-spacing: 0.42px;
+    font-family: "Montserrat - Bold";
+    font-weight: 700;
+    letter-spacing: 0.42px;
+    font-family: "Montserrat - Regular";
+    font-weight: 400;
+    letter-spacing: 0.42px;
+    color: #000000;
+    font-family: "Montserrat - Regular";
+    font-weight: 400;
+    letter-spacing: 0.42px;
+}
+.mywork {
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 24px;
+    padding-top: 40px;
+    padding-right: 40px;
+}
+.datawork {
+    color: #a8a8a8;
+    font-size: 12px;
+    font-weight: 400;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.myfirstexpierens {
+    color: #595959;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    /* Text style for "Lorem ipsu" */
+    letter-spacing: 0.42px;
+}
+.markerexspierens {
+    margin-left: 15px;
+}
+.myworktitle {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    padding-top: 10px;
+    padding-right: 40px;
+}
+.workexperience {
+    color: #ff6b08;
+    letter-spacing: 0.48px;
+}
+.educationtitle {
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 24px;
+    margin-top: 40px;
+}
+.education {
+    padding-top: 10px;
+    color: #ff6b08;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    /* Text style for "Kharkiv Na" */
+    letter-spacing: 0.48px;
+}
+.markeducation {
+    margin-left: 15px;
+}
+.position {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+    /* Text style for "Management" */
+    letter-spacing: 0.42px;
+    padding-top: 10px;
+    padding-left: 15px;
+}
+.data {
+    color: #a8a8a8;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 24px;
+    /* Text style for "Septermber" */
+    letter-spacing: 0.36px;
+}
+.saitbar {
+    background: #1e2939;
+    width: 370px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.myfoto {
+    width: 370px;
+}
+.letera {
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 800;
+    padding-left: 20px;
+}
+.contacts {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.42px;
+    letter-spacing: 0.42px;
+    text-decoration: underline;
+}
+.contacts-link a:hover {
+    color: #e3630e;
+}
+.contactstitle {
+    color: #ffffff;
+    font-size: 22px;
+    font-weight: 700;
+    padding-bottom: 15px;
+    padding-right: 40px;
+    padding-left: 20px;
+    padding-top: 40px;
+}
+.social {
+    margin-top: 15px;
+}
+.social-icon a :hover {
+    background: #e3630e;
+}
+.techskillstitle {
+    font-size: 22px;
+    font-weight: 700;
+    color: #ffffff;
+    padding-top: 25px;
+    padding-right: 40px;
+    padding-left: 20px;
+}
+.softtitle {
+    color: #ffffff;
+    font-size: 22px;
+    font-weight: 700;
+    padding-bottom: 15px;
+    padding-right: 40px;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+.techskills {
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    text-transform: uppercase;
+    letter-spacing: 0.42px;
+}
+.dotLi {
+    color: #e3630e;
+}
+.techskilscontener {
+    padding-left: 40px;
+}
+.softskillscontener {
+    padding-left: 40px;
+}
+.education-link a:hover {
+    color: #e3630e;
+}
+.education-link a {
+    color: #595959;
+}
