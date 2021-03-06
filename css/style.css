@@ -29,7 +29,7 @@ body {
 
 .fullname {
   color: #000000;
-  font-size: 45px;
+  font-size: 25px;
   font-weight: 700;
   padding-top: 5px;
 }
@@ -68,12 +68,12 @@ body {
 }
 .linkproject {
   color: #595959;
-  font-size: 14px;
+  font-size: 12px;
   font-weight: 400;
   line-height: 24px;
   letter-spacing: 0.42px;
   padding-top: 15px;
-  padding-right: 40px;
+  /* padding-right: 40px; */
 }
 .number a :hover {
   color: #e3630e;
@@ -180,7 +180,7 @@ body {
   width: 100%;
 }
 .letera {
-  color: #ffffff;
+  color: #ff6b08;
   font-size: 14px;
   font-weight: 800;
   padding-left: 20px;
@@ -210,6 +210,8 @@ body {
 }
 .social {
   margin-top: 15px;
+  object-fit: cover;
+  width: 18px;
 }
 .social-icon a :hover {
   background: #e3630e;
@@ -239,7 +241,7 @@ body {
   text-transform: uppercase;
   letter-spacing: 0.42px;
 }
-.dotLi {
+.dotli {
   color: #e3630e;
 }
 .techskilscontener {
@@ -268,7 +270,10 @@ body {
     flex-direction: row;
   }
   .dots {
-    display: block;
+    display: none;
+  }
+  .linkproject {
+    padding-right: 40px;
   }
 }
 @media (min-width: 768px) {
