@@ -3,13 +3,14 @@
 <head>
     <link rel="stylesheet" href="css\style.css">
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>My Resume </title>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
 	
 </head>
 <body>
    <!--main container-->
+<div class="container">
    <aside class="saitbar"> 
          <img class="myfoto" src=".\img\IMG_2614.png" alt="My photo">
          <!--contacts-->
@@ -61,8 +62,10 @@
 <div class=" mainaboutme">  
        <!--about me container-->
        <div>
-          <h2 class="specific" >C# Developer</h2>
-          <h1 class="fullname"> Voievodskyi Maksym </h1>
+       <h2 class="specific"  > ()=> Developer ;</h2> 
+       <div class="fullname-wrapper"><h1 class="fullname"> Voievodskyi </h1>
+         <h1 class="fullname"> Maksym </h1> </div>
+        
           <div class="mydiscription">
           <p >   
             To obtain a position as junior developer , to improve my skills and help to develop  project. 
@@ -72,34 +75,31 @@
         </div>
 
                 <!--about my projects-->
-       <div>   
+       <div class="myproject">   
             <h3 class="projecttitle"> Projects  </h3>
-              <ol>
+              <ol class="project-menu">
                  <li class="number">
                  <a  href="   https://github.com/maksimvoevodskij81">  
-                    <span class="linkproject"> https://github.com/maksimvoevodskij81</span></a> 
-                   <span>....................................................</span>
+                   <span class="linkproject"> https://github.com/maksimvoevodskij81</span></a> 
+                   <span class="dots">....................................................</span>
                    <span class="skills"> <b>[</b> C++ <b>]</b></span>
                 </li>
                   <li class="number">
                    <a href="  https://github.com/maksimvoevodskij81/C-Game_2048">   
                      <span class="linkproject"> https://github.com/maksimvoevodskij81</span></a> 
-                     <span>.....................................</span>
+                     <span class="dots">.....................................</span>
                      <span class="skills"><b>[</b> C# .NET WPF <b>]</b></span>
                   </li>
                   <li class="number">
                       <a href="https://github.com/maksimvoevodskij81/game-who-wants-to-be-a-millionaire-"> 
                       <span class="linkproject"> https://github.com/maksimvoevodskij81</span></a> 
-                      <span>....................</span>
+                      <span class="dots">....................</span>
                        <span class="skills"> <b>[</b> C# .NET Windows Forms <b>]</b></span>
                    </li> 
-         
-                  
-
                     <li class="number">
                          <a href="https://maksimvoevodskij81.github.io/portfolio/"> 
                          <span class="linkproject">  https://github.com/maksimvoevodskij81</span></a> 
-                          <span>.....................................</span>
+                          <span class="dots">.....................................</span>
                           <span class="skills"> <b>[</b> HTML CSS JS<b>]</b></span>
                    </li>   
                </ol>
@@ -110,7 +110,9 @@
         </div>
             <!-- company -->
          <div class="experience"> 
-                <h4 class="myworktitle"> C++ Developer  <span class=" workexperience">IT Academy STEP</span>  </h4>
+            <h4 class="myworktitle"> Mentor <span class=" workexperience">IT2School</span>  </h4>
+            <h5 class="datawork"> 02.2021 - up to now|Ukraine </h5>
+                <h4 class="myworktitle"> Developer  <span class=" workexperience">IT Academy STEP</span>  </h4>
                 <h5 class="datawork"> June 2019 - up to now|Ukraine </h5>
                 <ul>
                    <li class=" markerexspierens">
@@ -124,23 +126,31 @@
             <div>
                <h3 class="educationtitle"> Education </h3>
                <ul class="education-link">
-			    <li class="markeducation "> <span class="education"> Online course CODIFUN</span>  </li>
-                <span class="position"><b>Web coder – web developer</b> <span><br>
-                <span class="data "> 04.2020 - 09.2020 |Ukraine  </span> <br>
-				<a   href="https://codifun.com/get-certificate/11/eyJpdiI6ImhlZHd1RU85V0RjRnpaSzJ6dzhkMkE9PSIsInZhbHVlIjoiMEhObXRNWW81Vm5SSlNGQVwvdm9Gcnc9PSIsIm1hYyI6ImM3ZmFmZjQ5ODAyYzYwZmI5MGQxYTNlZDkzODdiNjBiNDBiNjJmYTM4NzBhZjU3YmE4OGIxNWY5NWY1MjFjMDAifQ==" target ="_blank "><span> certificate of completion  Link  </span></a>
-                <li class="markeducation"> <span class="education"> STEP IT Academy</span>  </li>
-                <span class="position"><b>Developer</b> <span><br>
-                <span class="data"> June 2019 -up to now |Ukraine  </span> 
-                <li class="markeducation"> <span class="education">Donetsk Law  institute</span> </li>
-                <span class="position"><b>jurisprudenсe </b> <span><br>
-                <span class="data"> 2004-2007 |Ukraine  </span>
-                <li class="markeducation"> <span class="education">Donetsk institute  Vnutrišnih Sprav  MVS</span> </li>
-                <span class="position"><b>law enforcement</b> <span><br>
-                <span class="data">  1998 – 2001  |Ukraine  </span>
+                  <li class="markeducation"> <span class="education">RS SCHOOL</span>  </li>
+                  <span class="position"><b>JS/FRONT-END</b> </span><br>
+                  <span class="data"> 02.2021 -up to now |Ukraine  </span> <br>
+                  <a   href="https://rs.school/" target ="_blank "><span class="education-link"> Link </span></a>
+                   <li class="markeducation"> <span class="education"> STEP IT Academy</span>  </li>
+                  <span class="position"><b>Developer</b> </span><br>
+                  <span class="data"> June 2019 -up to now |Ukraine  </span> 
+			         <li class="markeducation "> <span class="education"> Online course CODIFUN</span></li>
+                  <span class="position"><b>Web coder – web developer</b> </span><br>
+                  <span class="data "> 04.2020 - 09.2020 |Ukraine  </span> <br>
+				      <a href="https://codifun.com/get-certificate/11/eyJpdiI6ImhlZHd1RU85V0RjRnpaSzJ6d
+                      zhkMkE9PSIsInZhbHVlIjoiMEhObXRNWW81Vm5SSlNGQVwvdm9Gcnc9PSIsIm1hYyI6ImM3ZmFmZjQ
+                      5ODAyYzYwZmI5MGQxYTNlZDkzODdiNjBiNDBiNjJmYTM4NzBhZjU3YmE4OGIxNWY5NWY1MjFjMDAifQ==" 
+                     target ="_blank "><span> certificate of completion  Link  </span></a>
+                  <li class="markeducation"> <span class="education">Donetsk Law  institute</span> </li>
+                  <span class="position"><b>jurisprudenсe </b> </span><br>
+                  <span class="data"> 2004-2007 |Ukraine  </span>
+                  <li class="markeducation"> <span class="education">Donetsk institute  Vnutrišnih Sprav  MVS</span> </li>
+                  <span class="position"><b>law enforcement</b> </span><br>
+                  <span class="data">  1998 – 2001  |Ukraine  </span>
               </ul>
            </div>
 
-</div>
+      </div>
+   </div>
 </body>
 </html>
 
