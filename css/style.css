@@ -73,7 +73,6 @@ body {
   line-height: 24px;
   letter-spacing: 0.42px;
   padding-top: 15px;
-  /* padding-right: 40px; */
 }
 .number a :hover {
   color: #e3630e;
@@ -257,7 +256,6 @@ body {
   color: #595959;
   font-size: 14px;
 }
-
 @media (min-width: 640px) {
   .fullname-wrapper {
     display: flex;
@@ -304,7 +302,6 @@ body {
   .dots {
     display: none;
   }
-
   .fullname {
     font-size: 21px;
   }
@@ -320,7 +317,6 @@ body {
     flex-direction: row;
   }
 }
-
 @media (min-width: 1400px) {
   .container {
     width: 2400px;
